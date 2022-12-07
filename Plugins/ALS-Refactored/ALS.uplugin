@@ -1,0 +1,75 @@
+{
+	"FileVersion": 3,
+	"Version": 11,
+	"VersionName": "4.10",
+	"FriendlyName": "Advanced Locomotion System Refactored",
+	"Description": "Completely reworked and improved version of the Community Version of Advanced Locomotion System V4.",
+	"Category": "Animation",
+	"CreatedBy": "Sixze",
+	"CreatedByURL": "https://github.com/Sixze",
+	"DocsURL": "https://github.com/Sixze/ALS-Refactored",
+	"MarketplaceURL": "https://www.unrealengine.com/marketplace/en-US/product/advanced-locomotion-system-v1",
+	"SupportURL": "https://github.com/Sixze/ALS-Refactored/discussions",
+	"EngineVersion": "5.1",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "ALS",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		},
+		{
+			"Name": "ALSCamera",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		},
+		{
+			"Name": "ALSExtras",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		},
+		{
+			"Name": "ALSEditor",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "PostEngineInit"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GASCompanion",
+			"Enabled": true
+		},
+		{
+			"Name": "ControlRig",
+			"Enabled": true
+		},
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayCameras",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayTagsEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "Metasound",
+			"Enabled": true
+		},
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "PropertyAccessNode",
+			"Enabled": true
+		}
+	]
+}
